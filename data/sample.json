@@ -1,0 +1,46 @@
+{
+	"result" : [
+		{
+			"current_pid" : 1,
+			"current_filename" : "chrome",
+			"action_id" : 10,
+			"action_desc" : "download",
+			"target_type" : "file",
+			"target_name" : "fileA"
+		},
+		{
+			"current_pid" : 2,
+			"current_filename" : "explorer",
+			"action_id" : 20,
+			"action_desc" : "execute process",
+			"target_type" : "process",
+			"target_pid" : 3,
+			"target_name" : "fileA"
+		},
+		{
+			"current_pid" : 3,
+			"current_filename" : "fileA",
+			"action_id" : 10,
+			"action_desc" : "download",
+			"target_type" : "file",
+			"target_name" : "fileB"
+		},
+		{
+			"current_pid" : 3,
+			"current_filename" : "fileA",
+			"action_id" : 30,
+			"action_desc" : "inject",
+			"target_type" : "file",
+			"target_pid" : 4,
+			"target_name" : "svchost"
+		},
+		{
+			"current_pid" : 4,
+			"current_filename" : "svchost",
+			"action_id" : 40,
+			"action_desc" : "encrypt",
+			"target_type" : "file",
+			"target_name" : "documents"
+		}
+	]
+}
